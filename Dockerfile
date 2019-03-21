@@ -21,8 +21,6 @@ RUN \cp -f /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && yum clean all \
     && cd / \
     && rm -rf /mnt/*
-#RUN yum install git -y
-#ENV LANG "en_US.UTF-8"
-#ENV git_author test
+
 
 
